@@ -15,7 +15,7 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  background-color: #252525;
+  background-image: url(download.jpg);
   height: 80px;
   width: 100%;
   justify-content: space-between;
@@ -66,7 +66,7 @@ li a.contact:hover {
 }
 .midden {
   display: flex;
-  background-color: #2e2e2e;
+  background-image: url(download.jpg);
   height: 711px;
   width: 100%;
 }
@@ -279,4 +279,14 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.sign {
+  border: 10px;
+  width: auto;
+}
+
+Result Skip Results Iframe EDIT ON body {
+  margin: 0;
+  background-color: #000;
 }
