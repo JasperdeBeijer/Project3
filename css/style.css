@@ -5,14 +5,59 @@
 
 .navbar {
   display: flex;
-  background-color: red;
-  height: 100px;
+  flex-direction: row;
+  background-color: #252525;
+  height: 80px;
   width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: "AstroSpace", sans-serif;
+}
+.navlinks {
+  display: flex;
+  list-style: none;
+  line-height: 90px;
 }
 
+.navlinks li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+.navlinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s linear 0s;
+  text-transform: uppercase;
+}
+.navlinks li a:hover {
+  color: #7ebcb9;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #7ebcb9;
+}
+li a.contact {
+  background-color: #4b006e;
+  padding: 9px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  border-bottom: none;
+}
+
+li a.contact:hover {
+  background-color: #260138;
+  color: white;
+  border-bottom: none;
+}
 .midden {
   display: flex;
   background-color: black;
-  height: 691px;
+  height: 711px;
   width: 100%;
 }
