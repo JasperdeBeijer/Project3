@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+  font-family: AstroSpace;
+  src: url(/fonts/AstroSpace.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
 }
 
 .navbar {
@@ -57,7 +66,7 @@ li a.contact:hover {
 }
 .midden {
   display: flex;
-  background-color: black;
+  background-color: #2e2e2e;
   height: 711px;
   width: 100%;
 }
