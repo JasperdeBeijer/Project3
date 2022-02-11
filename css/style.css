@@ -66,6 +66,9 @@ li a.contact:hover {
 }
 .midden {
   display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
   background-image: url(download.jpg);
   height: 711px;
   width: 100%;
@@ -98,6 +101,7 @@ body {
     #6b1839,
     transparent
   );
+
   transform: translate(-50%, -50%);
   letter-spacing: 2;
   left: 50%;
@@ -289,4 +293,22 @@ body {
 Result Skip Results Iframe EDIT ON body {
   margin: 0;
   background-color: #000;
+}
+
+.midden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: "Metal Mania", cursive;
+}
+.midden h1 {
+  color: white;
+}
+
+.midden img {
+  height: 200px;
+  width: 300px;
+  position: relative;
 }
