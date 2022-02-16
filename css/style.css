@@ -16,19 +16,26 @@
   display: flex;
   flex-direction: row;
   background-image: url(download.jpg);
-  height: 80px;
+  height: 3%;
   width: 100%;
   justify-content: space-between;
 }
 .logo {
-  color: white;
+  color: #b565ff;
   line-height: 90px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
-  margin-left: 30px;
-  font-family: "AstroSpace", sans-serif;
+  margin-left: 2%;
+  font-family: "Roboto Mono", monospace;
 }
+
+.logoimage {
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  width: 7%;
+}
+
 .navlinks {
   display: flex;
   list-style: none;
@@ -47,11 +54,11 @@
   text-transform: uppercase;
 }
 .navlinks li a:hover {
-  color: #7ebcb9;
+  color: #8707ff;
   padding-bottom: 7px;
-  border-bottom: 2px solid #7ebcb9;
+  border-bottom: 2px solid #8707ff;
 }
-li a.contact {
+li a.BTS {
   background-color: #4b006e;
   padding: 9px 20px;
   border-radius: 50px;
@@ -59,7 +66,7 @@ li a.contact {
   border-bottom: none;
 }
 
-li a.contact:hover {
+li a.BTS:hover {
   background-color: #260138;
   color: white;
   border-bottom: none;
@@ -308,7 +315,176 @@ Result Skip Results Iframe EDIT ON body {
 }
 
 .midden img {
-  height: 200px;
-  width: 300px;
-  position: relative;
+  height: 169px;
+  width: 227px;
+}
+
+.Robot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background-color: darkgrey;
+  width: 100%;
+  height: 879px;
+  flex-direction: column;
+}
+
+.Robot h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-family: "Yellowtail", cursive;
+  color: lightyellow;
+}
+
+.Beginning {
+  height: 179px;
+  width: 701px;
+  border: 5px solid rgb(156 30 30);
+  margin: 20px auto;
+  font-family: "Yellowtail", cursive;
+  color: lightyellow;
+}
+
+.Building {
+  height: 179px;
+  width: 701px;
+  border: 5px solid rgb(162, 68, 68);
+  margin: 20px auto;
+  font-family: "Yellowtail", cursive;
+  color: lightyellow;
+}
+
+.Robotpics {
+  height: 179px;
+  width: 701px;
+  border: 5px solid rgb(137, 44, 44);
+  margin: 20px auto;
+  font-family: "Yellowtail", cursive;
+  color: lightyellow;
+}
+
+.text {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: center;
+  top: 126px;
+  left: 60px;
+  height: 618px;
+  width: 277px;
+  border: 5px solid rgb(137, 44, 44);
+  margin: 20px auto;
+  font-family: "Yellowtail", cursive;
+  color: lightyellow;
+  transform: scale(-1, 1);
+  color: #000080;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.text2 {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: center;
+  top: 126px;
+  left: 1190px;
+  height: 618px;
+  width: 277px;
+  border: 5px solid rgb(137, 44, 44);
+  margin: 20px auto;
+  font-family: "Yellowtail", cursive;
+  color: lightyellow;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.row h2 {
+  color: red;
+}
+.column1 {
+  display: flex;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+  padding: 0 16px;
+}
+
+.container1::after,
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  display: flex;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #555;
 }
