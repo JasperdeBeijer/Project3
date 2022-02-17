@@ -20,6 +20,7 @@
   width: 100%;
   justify-content: space-between;
 }
+
 .logo {
   color: #b565ff;
   line-height: 90px;
@@ -58,6 +59,7 @@
   padding-bottom: 7px;
   border-bottom: 2px solid #8707ff;
 }
+
 li a.BTS {
   background-color: #4b006e;
   padding: 9px 20px;
@@ -71,6 +73,7 @@ li a.BTS:hover {
   color: white;
   border-bottom: none;
 }
+
 .midden {
   display: flex;
   align-content: flex-start;
@@ -369,10 +372,10 @@ Result Skip Results Iframe EDIT ON body {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   text-align: center;
-  top: 126px;
-  left: 60px;
-  height: 618px;
-  width: 277px;
+  top: 18%;
+  left: 5%;
+  height: 65%;
+  width: 15%;
   border: 5px solid rgb(137, 44, 44);
   margin: 20px auto;
   font-family: "Yellowtail", cursive;
@@ -391,10 +394,10 @@ Result Skip Results Iframe EDIT ON body {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   text-align: center;
-  top: 126px;
-  left: 1190px;
-  height: 618px;
-  width: 277px;
+  top: 18%;
+  left: 80%;
+  height: 65%;
+  width: 15%;
   border: 5px solid rgb(137, 44, 44);
   margin: 20px auto;
   font-family: "Yellowtail", cursive;
