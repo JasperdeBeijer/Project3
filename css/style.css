@@ -350,6 +350,8 @@ Result Skip Results Iframe EDIT ON body {
 }
 
 .Building {
+  display: flex;
+  justify-content: center;
   height: 179px;
   width: 701px;
   border: 5px solid rgb(162, 68, 68);
@@ -490,4 +492,23 @@ html {
 
 .button:hover {
   background-color: #555;
+}
+
+.titelbts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+}
+
+.introductiebts {
+  display: ;
+  height: 20%;
+  width: 100%;
+}
+
+.contentbts {
+  height: 60%;
+  width: 100%;
 }
